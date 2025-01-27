@@ -5,7 +5,8 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from RishuMusic import LOGGER, app, userbot
+from RishuMusic import LOGGER, app
+ #, userbot
 from RishuMusic.core.call import SACHIN
 from RishuMusic.misc import sudo
 from RishuMusic.plugins import ALL_MODULES
