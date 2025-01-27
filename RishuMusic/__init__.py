@@ -1,7 +1,7 @@
 from RishuMusic.core.bot import SACHIN
 from RishuMusic.core.dir import dirr
 from RishuMusic.core.git import git
-from RishuMusic.core.userbot import Userbot
+#from RishuMusic.core.userbot import Userbot
 from RishuMusic.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
@@ -14,7 +14,7 @@ heroku()
 
 app = SACHIN()
 api = SafoneAPI()
-userbot = Userbot()
+#userbot = Userbot()
 
 
 from .platforms import *
