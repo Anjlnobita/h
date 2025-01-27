@@ -40,7 +40,7 @@ async def init():
    # await userbot.start()
     await SACHIN.start()
     try:
-        await SACHIN.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await #SACHIN.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
         LOGGER("RishuMusic").error(
             "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗥𝗜𝗦𝗛𝗨 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
@@ -48,7 +48,7 @@ async def init():
         exit()
     except:
         pass
-    await SACHIN.decorators()
+  #  await SACHIN.decorators()
     LOGGER("RishuMusic").info(
         "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗥𝗜𝗦𝗛𝗨☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
