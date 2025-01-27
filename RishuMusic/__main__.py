@@ -37,7 +37,7 @@ async def init():
     for all_module in ALL_MODULES:
         importlib.import_module("RishuMusic.plugins" + all_module)
     LOGGER("RishuMusic.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
-    await userbot.start()
+   # await userbot.start()
     await SACHIN.start()
     try:
         await SACHIN.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
@@ -54,7 +54,7 @@ async def init():
     )
     await idle()
     await app.stop()
-    await userbot.stop()
+   # await userbot.stop()
     LOGGER("RishuMusic").info("𝗦𝗧𝗢𝗣 𝗥𝗜𝗦𝗛𝗨 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
 
 
